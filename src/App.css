@@ -2,7 +2,46 @@
   text-align: center;
 }
 
-.App-logo {
+@media (max-width: 768px) {
+  .home{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+
+
+  
+  }.navigation{
+    border: 1px solid black;
+    padding: 25px;
+  }.main{
+    border: 4px solid black;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+  }footer{
+    border: 4px solid black;
+    width: 100%;
+    /* margin: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }.footer-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 87%;
+    height:100px;
+    margin: 12px;
+    border: 4px solid black;
+
+  }
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +74,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
