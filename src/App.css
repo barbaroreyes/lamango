@@ -8,6 +8,9 @@
 }
 
 @media (max-width: 768px) {
+  .App{
+    padding: 3px;
+  }
   .home{
     margin: 10px;
     padding: 20px;
